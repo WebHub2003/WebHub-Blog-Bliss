@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>WebHub</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">WebHub</h1>
+                <p class="main_heading__para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3"> world of blog</span> </p>
+            </div>
+            <!-- //the main image -->
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+                <p>Vaibhav</p>
+                <h2 class="animateWord">
+                    <span>He is</span>
+                    <div>   
+                        <ul class="flip4">
+                            <li> a Progammer </li>
+                            <li> a Student</li>
+                            <li> a Freelancer</li>
+                            <li> Awesome </li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase">subscribe</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Best Laptop in 2024</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold">The Best Laptop of 2024: A Perfect Blend of Power and Elegance, </span> JUNE 1, 2024 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/3815750/pexels-photo-3815750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">WebHub</span> Welcomes, all of you to my world of blog. The best laptop of 2024 delivers exceptional performance in a sleek, portable design. Equipped with the latest Intel Core i7/i9 or AMD Ryzen 7/9 processors, it offers robust power for multitasking, gaming, and creative work. With up to 32GB of high-speed RAM and a 1TB SSD, it ensures quick access to files and smooth operation. The display features a crisp 4K or Full HD resolution with excellent color accuracy and brightness, ideal for both work and entertainment.</p>
+                                    <p>
+                                        The laptop's long-lasting battery, up to 12 hours, supports extended use without frequent recharges. It also boasts a high-quality build, advanced cooling system, and a range of connectivity options, including Thunderbolt 4, USB-C, and Wi-Fi 6, making it versatile and future-proof.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Varun, </span> Aug 3, 2024, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Accenture’s Green Shift</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Accenture's latest sustainability initiatives, </span> Aug 1, 2024 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">WebHub</span> Welcomes, all of you to my world of blog.Accenture’s sustainability initiatives are reshaping how businesses approach environmental and social challenges. The firm leverages advanced technologies like AI and blockchain to promote digital sustainability, helping organizations reduce carbon footprints and optimize resource use.</p>
+                                    <p>
+                                        Accenture's recent push towards sustainability is reshaping how businesses approach environmental responsibility. By integrating cutting-edge technologies and strategic frameworks, the firm is driving significant changes in corporate practices worldwide. Their initiatives focus on reducing carbon footprints, promoting circular economies, and enhancing transparency in supply chains.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Shivansh, </span> Aug 2, 2024, 7:20 PM </p>
+                                                <p>Impressive to see how Accenture’s sustainability initiatives are shaping the future of global business! </p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Shreyas, </span> Aug 3, 2024, 11:50 AM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">The Latest Advancements in Generative AI</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Generative AI is revolutionizing the way content is created, </span> Aug 3, 2024 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/4050303/pexels-photo-4050303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Shivansh</span> Welcomes, all of you to my world of blog. Generative AI, a transformative technology that creates new content from existing data, is making significant strides and reshaping various industries. From art and music to writing and programming, Generative AI (GenAI) is proving to be a powerful tool with diverse applications. Here’s a look at the latest developments in this exciting field.</p>
+                                    <p>
+                                        Generative AI is revolutionizing the way content is created. Advanced language models can write articles, generate marketing copy, and even create fictional stories with impressive coherence and creativity. These tools are streamlining the content creation process, making it easier for writers and marketers to produce high-quality content quickly.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Ketan, </span> Aug 4, 2024, 1:20 PM </p>
+                                                <p>Exciting insights on how Generative AI is shaping the future of innovation!</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Abhishek, </span> Aug 4, 2024, 3:10 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Prabhat, </span> Aug 4, 2024, 5:06 PM </p>
+                                                <p>Generative AI is truly transforming creative possibilities—can’t wait to see what’s next!</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Tarun, </span> Aug 12, 2020, 7:20 PM </p>
+                                                <p>Exciting times for AI enthusiasts—Generative AI is pushing boundaries in ways we never imagined!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+                        <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                            <div class="row gy-5 left_div__blog">
+                                <!-- about me -->
+                                <div class="col-12  about_me_div shadow">
+                                    <p>Vaibhav Singh</p>
+                                    <p>Just me, myself, and I, exploring the universe of unknownment.<br>I have a heart full of love and an interest in unraveling the mysteries of technology and innovation. Join me on this journey as I share insights and discoveries on the ever-evolving world around us.</p>
+                                </div>
+                                <!-- popular post -->
+                                <div class=" popular_post ">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Popular Posts</h2>
+                                    </div>
+                                    <div class="right_sub__div shadow">
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img1 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Bill Gates</h3>
+                                                <p class="text-capitalize">CEO Microsoft</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img2 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Mark Zuckerberg </h3>
+                                                <p class="text-capitalize">Programmer</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img3 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Jeff Bezos</h3>
+                                                <p class="text-capitalize">Amazon</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img4 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Steve Jobs</h3>
+                                                <p class="text-capitalize">Apple</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- advertise -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub__div ">
+                                        <div class="adevetise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tags -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub__div">
+                                        <a href="https://www.youtube.com/channel/UC57t3rnBUORbovVe2qJwR7A" target="_thapa" class="badge shadow text-capitalize"> html </a>
+                                        <a href="#" class="badge shadow text-capitalize"> css </a>
+                                        <a href="#" class="badge shadow text-capitalize"> js </a>
+                                        <a href="#" class="badge shadow text-capitalize"> react </a>
+                                        <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                        <a href="#" class="badge shadow text-capitalize"> php </a>
+                                        <a href="#" class="badge shadow text-capitalize"> python </a>
+                                        <a href="#" class="badge shadow text-capitalize"> kotlin </a>
+                                        <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                        <a href="#" class="badge shadow text-capitalize"> java </a>
+                                    </div>
+                                </div>
+                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow Me</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+
+                                        <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center py-5 bg-light">design with love By ©WebHub</p>
+        </footer>
+
+         <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "WebHub_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+            } 
+            else if (res.className == 'WebHub_show') {
+                console.log('WebHub show');
+                res.className = "replies";
+            }
+        }
+        </script>
+    </body>
+
+</html>
